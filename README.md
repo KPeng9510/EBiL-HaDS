@@ -16,6 +16,10 @@ please first set the dataset path to the correct path for PACS dataset.
 
 Then execute python test_domain_scheduler.py
 
+The model weight can be downloaded from the following anonymous link, please use this model weight to replace the file path during test time
+
+https://file.io/61JWxnE9Zfvj
+
 
 You will get the following results on PACS when using cartoon as the target domain.
 
