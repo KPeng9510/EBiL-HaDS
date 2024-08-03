@@ -17,8 +17,7 @@ Then execute python test_domain_scheduler.py
 
 The model weight can be downloaded from the following anonymous link, please use this model weight to replace the file path during test time
 
-https://file.io/61JWxnE9Zfvj
-
+https://drive.google.com/file/d/1gUI2V0MIYO2y0V0_Br6KfNecbdlE4zEZ/view?usp=sharing
 
 
 
