@@ -19,6 +19,6 @@ Then execute python test_domain_scheduler.py
 
 You will get the following results on PACS when using cartoon as the target domain.
 
-![alt text]([test.png](test.png)
+![Alt text](test.png)
 
 
