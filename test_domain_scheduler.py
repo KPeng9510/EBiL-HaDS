@@ -57,7 +57,7 @@ if __name__ == '__main__':
     parser.add_argument('--save-best-test', action='store_true')
     parser.add_argument('--save-later', action='store_true')
     parser.add_argument('--num-epoch-before', type=int, default=0)
-    parser.add_argument('--path-dataset', type=str, default="/hkfs/work/workspace/scratch/fy2374-workspace/ijcai_folders/Neurips/Homework3-PACS/")
+    parser.add_argument('--path-dataset', type=str, default="path to dataset")
     parser.add_argument('--rb_layer_1', type=int, default=3)
     parser.add_argument('--rb_layer_2', type=int, default=2)
     args = parser.parse_args()
@@ -169,7 +169,7 @@ if __name__ == '__main__':
     else:
         muticlassifier = MutiClassifier_eve
     net = MutiClassifier_eve(net=resnet18_fast(num_classes=num_classes, rb1=args.rb_layer_1, rb2=args.rb_layer_2), num_classes=num_classes)
-    file_path = "model_weights/test.pth"
+    file_path = "model_weights/test.pth" # please change it to your model weight
     w = torch.load(file_path)
     net.load_state_dict(w)
     net.eval()   
