@@ -57,7 +57,7 @@ if __name__ == '__main__':
     parser.add_argument('--save-best-test', action='store_true')
     parser.add_argument('--save-later', action='store_true')
     parser.add_argument('--num-epoch-before', type=int, default=0)
-    parser.add_argument('--path-dataset', type=str, default="/hkfs/work/workspace/scratch/fy2374-workspace/ijcai_folders/Neurips/Homework3-PACS/")
+    parser.add_argument('--path-dataset', type=str, default="Path to dataset/")
 
     args = parser.parse_args()
     dataset = args.dataset
