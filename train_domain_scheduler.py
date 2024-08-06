@@ -235,7 +235,7 @@ if __name__ == '__main__':
                 batch_data.append(batch_data1)
             batch_data = torch.cat(batch_data,0)
             pred_domain = net_d_indicator(batch_data.to(device)).squeeze()
-            pred_domain = torch.exp(1 +torch.min(pred_domain))*dm_weight
+            pred_domain = torch.exp(1 +torch.mean(pred_domain))*dm_weight
             indicators.append(pred_domain)
             domain_specific_loader[k].reset()  
         indicators = torch.stack(indicators,0)
