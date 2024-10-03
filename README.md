@@ -1,3 +1,6 @@
+# Neurips2024 - poster- Advancing Open-Set Domain Generalization Using Evidential Bi-Level Hardest Domain Scheduler
+
+
 ## Instruction for the code running
 
 please first prepare the environment following environment.yml
