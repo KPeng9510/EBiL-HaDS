@@ -1,4 +1,4 @@
-# Neurips2024 - poster- Advancing Open-Set Domain Generalization Using Evidential Bi-Level Hardest Domain Scheduler
+# [Neurips2024] Advancing Open-Set Domain Generalization Using Evidential Bi-Level Hardest Domain Scheduler
 
 
 ## Instruction for the code running
